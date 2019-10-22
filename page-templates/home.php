@@ -12,25 +12,95 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header(); ?>
-	
-	<div class="hero-area" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/unnamed-file.jpg'); background-size: cover;background-position: center; height: 100vh">
+
+	<!-- Hero area -->
+	<div class="hero-area" style="background-image: url('<?php the_field('slider_image'); ?>'); background-size: cover;background-position: center;height: 100vh;background-repeat: no-repeat;">
 		
 	</div>
 
-	<div class="container">
-		<div class="row case-single-bottom">
-			<div class="col-lg-12 col-md-12 case-single-left">
-				<?php 
-					$images = get_field('brand_gallery');
-					$size = 'full'; // (thumbnail, medium, large, full or custom size)
+	<div class="three-sixti-degree">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="hover-image">
+						
+					</div>
+				</div>
+			</div>
+			<div class="row text-brand-logo">
+				<div class="col-md-4 text-right">
+					<img src="<?php the_field('left_logo'); ?>" alt="" />
+				</div>
+				<div class="col-md-4 text-center">
+					<img src="<?php the_field('center_logo'); ?>" alt="" />
+				</div>
+				<div class="col-md-4 text-left">
+					<img src="<?php the_field('right_logo'); ?>" alt="" />
+				</div>
+			</div>
 
-					if( $images ): ?>
-					    <ul>
-					        <?php foreach( $images as $image ): ?>
-					            <img src="<?php echo $image; ?>" alt="">
-					        <?php endforeach; ?>
-					 	</ul>
-				<?php endif; ?>
+			<div class="row brand-text">
+				<div class="col-md-12 text-center">
+					<p><?php the_field('cta'); ?></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="gallery-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="section-title">
+						<h2>PARCEIROS</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<?php echo do_shortcode('[modula id="73"]'); ?>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="video-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<?php the_field('video_link'); ?>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<!-- brand area -->
+	<div class="brand-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="section-title">
+						<h2>PARCEIROS</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row case-single-bottom">
+				<div class="col-lg-12 col-md-12 case-single-left">
+					<?php 
+						$images = get_field('brand_gallery');
+						$size = 'full'; // (thumbnail, medium, large, full or custom size)
+
+						if( $images ): ?>
+						    <ul>
+						        <?php foreach( $images as $image ): ?>
+						            <img src="<?php echo $image; ?>" alt="">
+						        <?php endforeach; ?>
+						 	</ul>
+					<?php endif; ?>
+				</div>
 			</div>
 		</div>
 	</div>

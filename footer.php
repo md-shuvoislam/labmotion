@@ -15,7 +15,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<div class="wrapper" id="wrapper-footer">
+<div class="wrapper" id="wrapper-footer" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/footer-bg.jpg');">
 
 	<div class="<?php echo esc_attr( $container ); ?>">
 
