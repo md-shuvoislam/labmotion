@@ -29,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			</div><!--col end -->
 
-			<div class="col-md-3 text-right">
+			<div class="col-md-3">
 				<div class="site-addresses">
 					<h4>FALE COM A GENTE</h4>
 					<p>contato@labmotion.com.br</p>
@@ -37,7 +37,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div><!-- .site-info -->
 			</div><!--col end -->
 
-			<div class="col-md-3 text-right">
+			<div class="col-md-3">
 				<ul class="footer-social">
 					<li><a href=""><i class="fa fa-instagram"></i></a></li>
 					<li><a href=""><i class="fa fa-vimeo"></i></a></li>

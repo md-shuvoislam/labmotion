@@ -1,0 +1,235 @@
+body{
+	margin:0;
+	padding: 0;
+	    font-family: 'Mohave' !important;
+}
+.section-padding {
+    padding: 80px 0;
+}
+div#wrapper-navbar .bg-primary {
+    /* background-color: #3F3F3F !important; */
+    background-image: url('http://localhost/labmotion/wp-content/uploads/2019/10/menu-area-bg.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+}
+.case-single-left img {
+    height: auto;
+    width: 155px;
+    padding: 20px;
+}
+.case-single-left ul {
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+}
+.video-area iframe{
+	display: table;
+    margin: 0 auto;
+    width: 1100px;
+    height: 640px;
+}
+ul.footer-social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: right;
+}
+ul.footer-social li {
+    float: left;
+    width: 35px;
+    height: 35px;
+    background: #FBFBFB;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+ul.footer-social li a {
+    color: #3e3e3e;
+    line-height: 32px;
+    display: block;
+}
+ul.footer-social li:hover {
+    background: #ffb23b;
+    transition: .5s;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    font-size: 25px;
+    color: #FFFFFF !important;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.site-addresses h4 {
+    color: #FFBF37;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+.site-addresses p {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+.site-info p {
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#wrapper-footer {
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section-title h2 {
+    color: #545554;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: italic;
+}
+.gallery-area.section-padding {
+    padding-top: 0;
+}
+.brand-text {
+    color: #FFFFFF;
+    font-size: 22px;
+    position: relative;
+    margin-top: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 0px;
+}
+.brand-text p {
+    margin: 0;
+}
+.site-addresses {
+    text-align: right;
+}
+.gallery-area .section-title h2 {
+    margin-bottom: 40px;
+}
+.text-brand-logo {
+    padding-top: 100px;
+}
+.cricle img {
+    max-width: 100%;
+    width: 50px;
+    height: auto;
+}
+.cricle {
+    text-align: center;
+    border: 2px solid #535453;
+    vertical-align: middle;
+    padding: 15px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.cricle-1 {
+    position: absolute;
+    bottom: -6%;
+    left: 38%;
+}
+.cricle-2 {
+    position: absolute;
+    bottom: -16%;
+    left: 63%;
+}
+.cricle-3 {
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+}
+.cricle-4 {
+    position: absolute;
+    bottom: 39%;
+    right: -7.5%;
+}
+.cricle-5 {
+    position: absolute;
+    top: 10%;
+    right: 3%;
+}
+.cricle-6 {
+    position: absolute;
+    right: 21%;
+    top: -9%;
+}
+.cricle-7 {
+    top: -16%;
+    position: absolute;
+    right: 42%;
+}
+.cricle-8 {
+    position: absolute;
+    top: -10%;
+    left: 27%;
+}
+.cricle-9 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.cricle-10 {
+    position: absolute;
+    top: 37%;
+    left: 8%;
+}
+.cricle-11 {
+    position: absolute;
+    bottom: 10%;
+    left: -7%;
+}
+.cricle-12 {
+    position: absolute;
+    bottom: -2%;
+    left: 21%;
+}
+@media only screen and (max-width: 767px) {
+    .case-single-left img {
+        height: auto;
+        max-width: 100%;
+        padding: 20px 0;
+        display: table;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .site-addresses {
+        text-align: center;
+    }
+    .site-info {
+        text-align: center;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 20px;
+    }
+    ul.footer-social {
+        display: table;
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+    .site-addresses {
+        border-bottom: 1px solid #ffff;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .video-area iframe {
+        display: table;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    div#wrapper-navbar .bg-primary {
+        padding: 30px;
+    }
+}

@@ -18,13 +18,74 @@ get_header(); ?>
 		
 	</div>
 
-	<div class="three-sixti-degree">
+	<div class="three-sixti-degree section-padding">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 text-center">
 					<div class="hover-image">
-						
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/hover-img.jpg" alt="" width="" height="" />
 					</div>
+
+					<div class="cricle cricle-1">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
+						<p>MARKETING</p>
+					</div>
+
+					<div class="cricle cricle-2">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
+						<p>MARKETING</p>
+					</div>
+
+					<div class="cricle cricle-3">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
+						<p>MARKETING</p>
+					</div>
+
+					<div class="cricle cricle-4">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
+						<p>MARKETING</p>
+					</div>
+
+					<div class="cricle cricle-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
+						<p>MARKETING</p>
+					</div>
+
+					<div class="cricle cricle-6">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
+						<p>MARKETING</p>
+					</div>
+
+					<div class="cricle cricle-7">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
+						<p>MARKETING</p>
+					</div>
+
+					<div class="cricle cricle-8">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
+						<p>MARKETING</p>
+					</div>
+
+					<div class="cricle cricle-9">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
+						<p>MARKETING</p>
+					</div>
+
+					<div class="cricle cricle-10">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
+						<p>MARKETING</p>
+					</div>
+
+					<div class="cricle cricle-11">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
+						<p>MARKETING</p>
+					</div>
+
+					<div class="cricle cricle-12">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
+						<p>MARKETING</p>
+					</div>
+					
 				</div>
 			</div>
 			<div class="row text-brand-logo">
@@ -39,7 +100,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="row brand-text">
+			<div class="row brand-text" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/brand-text-bg.png');">
 				<div class="col-md-12 text-center">
 					<p><?php the_field('cta'); ?></p>
 				</div>
@@ -48,12 +109,12 @@ get_header(); ?>
 	</div>
 
 
-	<div class="gallery-area">
+	<div class="gallery-area section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="section-title">
-						<h2>PARCEIROS</h2>
+						<h2>PORTFÓLIO</h2>
 					</div>
 				</div>
 			</div>
@@ -78,7 +139,7 @@ get_header(); ?>
 	
 
 	<!-- brand area -->
-	<div class="brand-area">
+	<div class="brand-area section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
