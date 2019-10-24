@@ -21,69 +21,100 @@ get_header(); ?>
 	<div class="three-sixti-degree section-padding">
 		<div class="container">
 			<div class="row">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mobile-timeline">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile-timeline.png" alt="" width="" height="" />
+						</div>
+					</div>
+				</div>
 				<div class="col-md-12 text-center">
 					<div class="hover-image">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/hover-img.jpg" alt="" width="" height="" />
 					</div>
 
 					<div class="cricle cricle-1">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
-						<p>MARKETING</p>
+						<div class="hover-content">
+							<img src="<?php the_field('first_timeline_icon'); ?>" alt="" />
+							<p><?php the_field('first_timeline_title'); ?></p>
+						</div>
 					</div>
 
 					<div class="cricle cricle-2">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
-						<p>MARKETING</p>
+						<div class="hover-content">
+							<img src="<?php the_field('second_timeline_icon'); ?>" alt="" />
+							<p><?php the_field('second_timeline_text'); ?></p>
+						</div>
 					</div>
 
 					<div class="cricle cricle-3">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
-						<p>MARKETING</p>
+						<div class="hover-content">
+							<img src="<?php the_field('third_timeline_icon'); ?>" alt="" />
+							<p><?php the_field('third_timeline_text'); ?></p>
+						</div>
 					</div>
 
 					<div class="cricle cricle-4">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
-						<p>MARKETING</p>
+						<div class="hover-content">
+							<img src="<?php the_field('fourth_timeline_icon'); ?>" alt="" />
+							<p><?php the_field('fourth_timeline_text'); ?></p>
+						</div>
 					</div>
 
 					<div class="cricle cricle-5">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
-						<p>MARKETING</p>
+						<div class="hover-content">
+							<img src="<?php the_field('fifth_timeline_icon'); ?>" alt="" />
+							<p><?php the_field('fifth_timeline_text'); ?></p>
+						</div>
 					</div>
 
 					<div class="cricle cricle-6">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
-						<p>MARKETING</p>
+						<div class="hover-content">
+							<img src="<?php the_field('sixth_timeline_icon'); ?>" alt="" />
+							<p><?php the_field('sixth_timeline_text'); ?></p>
+						</div>
 					</div>
 
 					<div class="cricle cricle-7">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
-						<p>MARKETING</p>
+						<div class="hover-content">
+							<img src="<?php the_field('seventh_timeline_icon'); ?>" alt="" />
+							<p><?php the_field('seventh_timeline_text'); ?></p>
+						</div>
 					</div>
 
 					<div class="cricle cricle-8">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
-						<p>MARKETING</p>
+						<div class="hover-content">
+							<img src="<?php the_field('eight_timeline_icon'); ?>" alt="" />
+							<p><?php the_field('eight_timeline_text'); ?></p>
+						</div>
 					</div>
 
 					<div class="cricle cricle-9">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
-						<p>MARKETING</p>
+						<div class="hover-content">
+							<img src="<?php the_field('nine_timeline_icon'); ?>" alt="" />
+							<p><?php the_field('nine_timeline_text'); ?></p>
+						</div>
 					</div>
 
 					<div class="cricle cricle-10">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
-						<p>MARKETING</p>
+						<div class="hover-content">
+							<img src="<?php the_field('ten_timeline_icon'); ?>" alt="" />
+							<p><?php the_field('ten_timeline_text'); ?></p>
+						</div>
 					</div>
 
 					<div class="cricle cricle-11">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
-						<p>MARKETING</p>
+						<div class="hover-content">
+							<img src="<?php the_field('eleven_timeline_icon'); ?>" alt="" />
+							<p><?php the_field('eleven_timeline_text'); ?></p>
+						</div>
 					</div>
 
 					<div class="cricle cricle-12">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/markteting-icons.png" alt="" />
-						<p>MARKETING</p>
+						<div class="hover-content">
+							<img src="<?php the_field('twelve_timeline_icon'); ?>" alt="" />
+							<p><?php the_field('twelve_timeline_text'); ?></p>
+						</div>
 					</div>
 					
 				</div>

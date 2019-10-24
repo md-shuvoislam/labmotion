@@ -118,7 +118,7 @@ ul.footer-social li:hover {
     margin-bottom: 40px;
 }
 .text-brand-logo {
-    padding-top: 100px;
+    padding-top: 200px;
 }
 .cricle img {
     max-width: 100%;
@@ -129,20 +129,27 @@ ul.footer-social li:hover {
     text-align: center;
     border: 2px solid #535453;
     vertical-align: middle;
-    padding: 15px;
+    padding: 35px 15px;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 135px;
+    height: 135px;
+    cursor: pointer;
+    background-color: #fff;
+    transform: scale(0.6);
+    transition: all 0.5s ease;
+}
+.cricle:hover {
+    transform: scale(1);
 }
 .cricle-1 {
     position: absolute;
     bottom: -6%;
-    left: 38%;
+    left: 37%;
 }
 .cricle-2 {
     position: absolute;
-    bottom: -16%;
-    left: 63%;
+    bottom: -18%;
+    left: 61%;
 }
 .cricle-3 {
     position: absolute;
@@ -151,7 +158,7 @@ ul.footer-social li:hover {
 }
 .cricle-4 {
     position: absolute;
-    bottom: 39%;
+    bottom: 36%;
     right: -7.5%;
 }
 .cricle-5 {
@@ -194,6 +201,119 @@ ul.footer-social li:hover {
     bottom: -2%;
     left: 21%;
 }
+.three-sixti-degree.section-padding {
+    padding: 200px 0 80px 0;
+}
+.cricle .hover-content {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
+.cricle:hover .hover-content {
+    opacity: 1;
+    visibility: visible;
+}
+.mobile-timeline {
+    display: none;
+}
+.video-area, .gallery-area, .three-sixti-degree {
+    position: relative;
+}
+.video-area:after {
+    content: "";
+    background-image: url(http://localhost/labmotion/wp-content/uploads/2019/10/section-baner.png);
+    width: 642px;
+    height: 641px;
+    position: absolute;
+    right: 0;
+    bottom: -20%;
+    z-index: -1;
+}
+.three-sixti-degree:after{
+    content: "";
+    background-image: url(http://localhost/labmotion/wp-content/uploads/2019/10/section-baner.png);
+    width: 642px;
+    height: 641px;
+    position: absolute;
+    right: 0;
+    bottom: -20%;
+    z-index: -1;
+}
+.video-area:before {
+    content: "";
+    background-image: url(http://localhost/labmotion/wp-content/uploads/2019/10/section-banner-top-left.png);
+    width: 642px;
+    height: 641px;
+    position: absolute;
+    left: 0;
+    top: -25%;
+    z-index: -1;
+}
+.three-sixti-degree:before{
+    content: "";
+    background-image: url(http://localhost/labmotion/wp-content/uploads/2019/10/tringale.png);
+    width: 280px;
+    height: 281px;
+    position: absolute;
+    left: 0;
+    top: -4px;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .video-area iframe {
+        display: table;
+        margin: 0 auto;
+        width: 700px;
+        height: 450px;
+    }
+    .cricle-11 {
+        position: absolute;
+        bottom: 10%;
+        left: -2%;
+    }
+    .cricle-4 {
+        position: absolute;
+        bottom: 36%;
+        right: -1.5%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .video-area iframe {
+        display: table;
+        margin: 0 auto;
+        width: 600px;
+        height: 350px;
+    }
+    .site-addresses {
+        text-align: left;
+    }
+    ul.footer-social li {
+        float: none;
+        margin-bottom: 10px;
+    }
+    .mobile-timeline {
+        display: block;
+    }
+    .hover-image {
+        display: none;
+    }
+    .cricle {
+        display: none;
+    }
+    .three-sixti-degree.section-padding {
+        padding: 80px 0 80px 0;
+    }
+    .text-brand-logo {
+        padding-top: 40px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0.6rem !important;
+        padding-left: 0.6rem !important;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .case-single-left img {
         height: auto;
@@ -231,5 +351,49 @@ ul.footer-social li:hover {
     }
     div#wrapper-navbar .bg-primary {
         padding: 30px;
+    }
+    .mobile-timeline {
+        display: block;
+    }
+    .hover-image {
+        display: none;
+    }
+    .cricle {
+        display: none;
+    }
+    .three-sixti-degree.section-padding {
+        padding: 80px 0 80px 0;
+    }
+    .text-brand-logo {
+        padding-top: 40px;
+    }
+    .text-brand-logo img {
+        text-align: center;
+        display: table;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .brand-text p {
+        font-size: 16px;
+    }
+    .section-title h2 {
+        font-size: 28px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+        font-size: 20px;
+    }
+    .video-area:after {
+        display: none;
+    }
+    .three-sixti-degree:after{
+         display: none;
+    }
+    .video-area:before {
+         display: none;
+    }
+    .three-sixti-degree:before{
+         display: none;
     }
 }
